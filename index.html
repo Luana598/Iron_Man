@@ -4,22 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+
+  <!-- Configuração da fonte Tilt Warp no Tailwind -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            'tilt-warp': ['"Tilt Warp"', 'cursive'],
+            'poppins': ['Poppins', 'sans-serif'],
+              'nunito': ['Nunito', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
     <title>Iron man</title>
 </head>
-<body class="bg-gray-100">
-    <header class="bg-red-400 h-20 p-5 flex items-center" >
+<body class="bg-gray-100 font-poppins">
+    <header class="h-20 pt-8 flex items-center gap-32"  >
         <div class="class">
-            <img class=""src="./img/marvel-logo-34288 1.png" alt="">
+            <img class="" src="./img/marvel-logo-34288 1.png" alt="">
         </div>
-        <div>
-            <li></li>
+            <ul class="flex items-center gap-8 place-content-center size-14 grow">
+                <li>Home</li>
+                <li>Avengers</li>
+                <li>Celestials</li>
+                <li>About</li>
+            </ul>
+        <div class="flex items-center gap-4">
+            <img src="./img/Search.svg" alt="">
+            <img src="./img/Dashboard 1.svg" alt="">
+            <img src="./img/User Circle.svg" alt="">
         </div>
     </header>
-    <main class="h-screen bg-violet-400">
-
+    <main>
+        <div>
+        </div>
     </main>
-
-
 </body>
 </html>
