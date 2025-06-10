@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
 
   <!-- Configuração da fonte Tilt Warp no Tailwind -->
@@ -18,46 +19,60 @@
           fontFamily: {
             'tilt-warp': ['"Tilt Warp"', 'cursive'],
             'poppins': ['Poppins', 'sans-serif'],
-              'nunito': ['Nunito', 'sans-serif'],
+            'nunito': ['Nunito', 'sans-serif'],
           }
         }
       }
     }
   </script>
 
-    <title>Iron man</title>
+  <title>Iron man</title>
 </head>
-<body class="bg-gray-100 font-poppins">
-    <header class="h-20 pt-8 flex items-center gap-32"  >
-        <div class="class">
-            <img class="" src="./img/marvel-logo-34288 1.png" alt="">
-        </div>
-            <ul class="flex items-center gap-8 place-content-center size-14 grow">
-                <li>Home</li>
-                <li>Avengers</li>
-                <li>Celestials</li>
-                <li>About</li>
-            </ul>
-        <div class="flex items-center gap-4">
-            <img src="./img/Search.svg" alt="">
-            <img src="./img/Dashboard 1.svg" alt="">
-            <img src="./img/User Circle.svg" alt="">
-        </div>
-    </header>
-    <main class="h-screen flex items-center">
-        <div class="place-self-start p-32">
-            <p>Marvel Character</p>
-            <h1 class="font-tilt-warp text-9xl gap-8 color text-[#8A2D5E]">IRON MAN</h1>
-            <h2 class="font-nunito text-2xl font-semibold">Tony Stark</h2>
-            <a>Iron Man is a superhero appearing in American comic <br> books published by Marvel Comics. Each of Tony’s <br> suits provides a full range of telecommunications, <br> sophisticated artificial intelligence capable of piloting <br> Tony to safety should he be rendered unconscious.
-            </a>
-            <div>
-                 <button class="bg-[#383838] mt-24 w-[362px] h-[57px]"><span class="color text-sky-50">Are you a Marvel fan?</span></button>
-            </div>
-        </div>
-       
-        <img src="./img/avengers-iron-man-person-human-graphics-art-transparent-png-683595 2.png" alt="">
 
-    </main>
+<body class="bg-gray-100 font-poppins h-screen">
+  <header class="h-20 pt-8 flex items-center gap-32 ml-8 mr-16 z-20">
+    <div class="class">
+      <img class="" src="./img/marvel-logo-34288 1.png" alt="">
+    </div>
+    <ul class="flex items-center gap-8 place-content-center size-14 grow">
+      <li class="text-lg">Home</li>
+      <li class="text-lg">Avengers</li>
+      <li class="text-lg">Celestials</li>
+      <li class="text-lg">About</li>
+    </ul>
+    <div class="flex items-center gap-4">
+      <img src="./img/Search.svg" alt="">
+      <img src="./img/Dashboard 1.svg" alt="">
+      <img src="./img/User Circle.svg" alt="">
+    </div>
+  </header>
+  <main class=" flex items-center">
+    <div class="place-self-start p-32">
+      <p class="opacity-75">Marvel Character</p>
+      <h1 class="font-tilt-warp text-9xl text-[#8A2D5E]">IRON MAN</h1>
+      <h2 class="font-nunito text-2xl font-medium mt-16">Tony Stark</h2>
+      <a class="opacity-75">Iron Man is a superhero appearing in American comic <br> books published by Marvel Comics.
+        Each of Tony’s <br> suits provides a full range of telecommunications, <br> sophisticated artificial
+        intelligence capable of piloting <br> Tony to safety should he be rendered unconscious.
+      </a>
+      <div>
+        <button class="bg-[#383838] mt-24 w-[362px] h-[57px]"><span class="text-lg font-extralight color text-sky-50">Are you a Marvel
+            fan?</span></button>
+      </div>
+    </div>
+    <img src="./img/side text.png" alt="" class="absolute right-[-20px] top-0 z-10 ">
+    <div class="absolute bottom-0 left-0">
+      <img src="./img/Github.svg" alt="" class="mb-4 ml-16">
+      <img src="./img/Figma - Original.svg" alt="" class="mb-4 ml-16">
+      <img src="./img/Twitter - Original.svg" alt="" class="mb-4 ml-16">
+      <img src="./img/Instagram - Original.svg" alt="" class="mb-4 ml-16">
+    </div>
+    <img src="./img/Iron_Man_Person.png" alt="" class=" ">
+    <button class="absolute bottom-[20px] right-[50px] flex gap-[20px] ">
+      <span class="font-nunito text-2xl"> Next Marvel Charcter </span>
+      <img src="./img/Circle Arrow Right.svg" alt="">
+    </button>
+  </main>
 </body>
+
 </html>
